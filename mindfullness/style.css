@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ html{
+    scroll-behavior: smooth;
+}
+ body{
+    position: relative;
+    background-image: url("../images/img4.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 40px;
+    font: normal normal normal 25px Bahnschrift;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.logo{
+    margin-top: -15px;
+    font-size: 37px;
+    background: linear-gradient(to left, #3ae5c5 0%, #e5e905 100%);;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.part{
+    font-family: 'Pattaya', sans-serif;
+  padding-top: 13vh;
+  margin-left: 17vw;
+  width: 20vw;
+  color: white;
+  font-size: 28px;
+}
+
+.topic {
+    font-family: 'Pattaya', sans-serif;
+    color: #FFFFFF;
+    background: linear-gradient(to bottom, #85f8d2 0%, #054558 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+main button{
+    font-family: 'Pattaya', sans-serif;
+  margin-top: 15px;
+  margin-left: 17vw;
+  border: 4px solid rgb(155, 168, 89);
+  border-radius: 50px;
+  width: 15vw;
+  height: 8vh;
+  background: none;
+  color: aliceblue;
+  cursor: pointer;
+}

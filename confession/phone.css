@@ -1,0 +1,15 @@
+body{
+    background-image: url("images/background.png");
+    background-size: cover;
+}
+nav{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}

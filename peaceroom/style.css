@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('../images/img1.jpg');
+    background-size: cover;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 40px;
+    font: normal normal normal 25px Bahnschrift;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.logo{
+    margin-top: -15px;
+    font-size: 37px;
+    background: linear-gradient(to left, #3ae5c5 0%, #e5e905 100%);;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.head{
+    font-size: 40px;
+    color: rgb(188, 218, 245);
+    margin-top: 20vh;
+    margin-left: 23vw;
+    font-family: 'Lobster', cursive;
+}
+.grad{
+    font-size: 8vh;
+    background: linear-gradient(to bottom, #8ddeff 0%, #922b87 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.container{
+    font-size: 5vh;
+    color: azure;
+    margin-left: 24vw;
+    margin-top: 3vh;
+    color: #8ddeff;
+}
+main{
+    font-family: 'Lobster', cursive;
+    padding: 2px;
+}
+main button{
+    margin-left: 40vw;
+    margin-top: 8vh;
+    width: 15vw;
+    height: 10vh;
+    border: 4px solid rgb(170, 113, 8);
+    border-radius: 50px;
+    background: none;
+    font-size: large;
+    color: rgb(197, 184, 184);
+    cursor: pointer;
+    font-family: 'Lobster', cursive;
+}
